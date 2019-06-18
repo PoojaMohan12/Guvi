@@ -1,3 +1,4 @@
 a=int(input())
-m=int(input())
-print(a**m)
+b=int(input())
+c=a**b
+print(c)
