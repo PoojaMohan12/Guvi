@@ -1,0 +1,10 @@
+a2=int(a1)
+r=0
+while(a1>0):
+    d=a1%10
+    r=r*10+d
+    a1=a1//10
+if(a2==r):
+    print("yes")
+else:
+    print("no")
