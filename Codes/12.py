@@ -1,3 +1,4 @@
+a1=eval(input())
 a2=int(a1)
 r=0
 while(a1>0):
