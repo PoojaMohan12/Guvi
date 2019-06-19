@@ -1,9 +1,9 @@
-a1=eval(input())
-a2=eval(input())
-l=[]
-for i in range (a1,a2):
+a=eval(input())
+b=eval(input())
+lis=[]
+for i in range (a,b):
     if (i%2==0):
-        l.append(i)
-if (a1==l[0]):
-    l.remove(a1)
-    print(*l)
+        lis.append(i)
+if (a==lis[0]):
+    lis.remove(a)
+    print(*lis)
