@@ -1,3 +1,5 @@
-n=input()
-r=n[::-1]
-print(r)
+number=str(input())
+rev=number[::-1]
+l=[]
+l.append(rev)
+print(*l)
