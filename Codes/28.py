@@ -1,4 +1,4 @@
-num=int(input())
-va=list(map(int,input().split()))[:num]
-for i in range (num):
-    print(va[i],i)
+n=int(input())
+va=list(map(int,input().split()))[:n]
+for k in range (n):
+    print(va[k],k)
