@@ -4,4 +4,7 @@ l=[]
 for i in range (z):
     if(a[i]==i):
         l.append(i)
-print(*l)
+if(len(l)!=0):
+    print(*l)
+else:
+    print('-1')
