@@ -3,7 +3,7 @@ def co(n1,n2):
         s1=n1.count(n)
     for j in n2:
         s2=n2.count(j)
-    if(s1==s2):
+    if(s1>=s2 or s1<=s2):
         print("yes")
     else:
         print("no")
