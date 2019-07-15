@@ -1,0 +1,7 @@
+n1,m1=input().split()
+n2,m2=input().split()
+n1=int(n1)
+m1=int(m1)
+n2=int(n2)
+m2=int(m2)
+print(abs(n1-n2),abs(m1-m2))
