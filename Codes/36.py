@@ -1,5 +1,5 @@
 import re
-car=re.compile('[@_!#$%^&*()<>?/\|}{~:]')
+car=re.compile('[@_!#$%^&*()<>?.;/\|}{~:]')
 a=input()
 c=0
 for i in range (len(a)):
