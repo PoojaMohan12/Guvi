@@ -1,4 +1,4 @@
-az=list(int(input()) for _ in range (10))
+az=list(map(int,input().split()))
 t=-10
 for i in range (10):
     if(az[i]>t):
