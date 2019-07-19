@@ -1,16 +1,12 @@
 n,m=map(str,input().split())
 a=0
+if len(n)>len(m):
+  n,m=m,n
 c=0
-b=max(len(m),len(n))
-b1=min(len(m),len(n))
-for i in range (b):
-    if(len(n)==len(m)):
-            a+=abs(ord(n[i])-ord(m[i]))  
-            c+=1
-    else:
-        if(len(n)<len(m)):
-            m,n=n,m
-            for r in range (c,b1):
-                a+=abs(ord(n[i])-ord('a')+1.75)
-                c+=1     
-print(int(a))
+while c<len(n):
+  a+=(ord(m[c])-ord(n[c]))
+  c+=1
+for c in range(c,len(m)):
+  a+=ord(m[c])-ord('a')+1
+print(a)
+    
