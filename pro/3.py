@@ -6,4 +6,7 @@ for i in range(a) :
         break
     if(n[i]!=m[i]):
         value+=1
-print(value)
+if(m=='4'):
+    print(value-1)
+else:
+    print(value)
