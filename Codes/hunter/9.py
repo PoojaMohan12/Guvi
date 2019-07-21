@@ -4,7 +4,7 @@ p=[]
 z=l.count(0)
 for i in range(n):
     for j in range (n):
-        if (l[i]+l[j]==0):
+        if ((l[i]+l[j]==0 )or(l[i]+l[j]==1)):
             if((l[i] not in p) and( l[j] not in p)):
                 p.append(l[i])
                 p.append(l[j])
