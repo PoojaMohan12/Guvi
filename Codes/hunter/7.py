@@ -8,4 +8,4 @@ for i in range(0,n):
     else:
         if(l[i]%2==0):
             o.append(l[i])
-print(*o,sep="")
+print(*o)
