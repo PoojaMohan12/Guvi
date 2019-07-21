@@ -1,25 +1,10 @@
-n=int(input())
-l=list(map(int,input().split()))
-p=[]
-z=l.count(0)
-c=1
-for i in range(n):
-    for j in range (n):
-        if (l[i]+l[j]==0 ):
-            c=0
-            if((l[i] not in p) and( l[j] not in p)):
-                p.append(l[i])
-                p.append(l[j])
-        if ((l[i]+l[j]==1 ) and c==0 ):
-            if((l[i] not in p) and( l[j] not in p)):
-                p.append(l[i])
-                p.append(l[j])
-k=p.count(0)
-if(z==k):
-    print(*p)
-else:
-    for h in range (abs(z-k)):
-        p.remove(0)
-    if(p[-1]==0):
-        p.remove(0)
-    print(*p)
+si=int(input())
+ti=list(map(int,input().split()))
+ci=max(ti)
+di,ei=0,0
+for i in range(0,len(ti)-1):
+  for j in range(i+1,len(ti)):
+    if abs(ti[i]+ti[j])<ci:
+      di,ei=ti[i],ti[j]
+      c1=abs(di+ei)
+print(di,ei)
