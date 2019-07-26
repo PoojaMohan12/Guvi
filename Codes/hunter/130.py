@@ -1,7 +1,6 @@
-a1=int(input())
-l1=[]
+a8=int(input())
 x1=0
-for i in range(3,a1):
+for i in range(3,a8):
     for j in range(2,i):
         if (i%j==0):
             break
