@@ -1,5 +1,5 @@
 u8=int(input())
-v=[int(i) for i in input().split()]
+v=list(map(int,input().split()))
 yyy=0
 for i in range(u8):
    for k in range(i):
